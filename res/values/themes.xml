@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="EnvironmentTheme" parent="android:Theme.Light">
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.BackApp</item>
+        <!-- change-the-touch-effect-color-of-the-actionbar- -->
+        <item name="android:selectableItemBackground">@drawable/ad_selectable_background</item>
+        <!-- remove the overy lay of the window -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/color_window_background</item>
+        <item name="android:buttonStyle">@style/ButtonGreenEnvironmentApp</item>
+        <item name="android:editTextStyle">@style/EditTextEnvironment</item>
+    </style>
+
+</resources>

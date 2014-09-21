@@ -1,0 +1,29 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ActionBar.Solid.BackApp" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/color_app_primary</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:titleTextStyle">@style/ActionBar.Solid.TitleStyle.EnvironmentDust</item>
+    </style>
+
+    <style name="ActionBar.Solid.TitleStyle.EnvironmentDust" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/color_global_white</item>
+    </style>
+
+    <!-- Advance style for application components -->
+    <style name="ButtonGreenEnvironmentApp" parent="@android:style/Widget.Button">
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_global_white</item>
+        <item name="android:background">@drawable/back_app_btn_blue</item>
+    </style>
+
+    <style name="EditTextEnvironment" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/back_app_edittext</item>
+        <item name="android:textColor">@color/color_global_black</item>
+        <item name="android:textSize">13sp</item>
+        <!-- enforce-edittext-to-start-text-in-capital-letter -->
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+</resources>

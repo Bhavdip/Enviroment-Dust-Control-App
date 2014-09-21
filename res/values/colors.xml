@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_app_primary">#009CDC</color>
+    <color name="color_app_secondary">#EDEEF2</color>
+    <color name="color_app_gray_first">#E5E7E8</color>
+    <color name="color_app_light_black">#3B3B3B</color>
+    <color name="color_app_light_primary">#0067C7</color>
+    <color name="color_app_selectable_item">#158EFF</color>
+    <color name="color_global_white">#FFFFFF</color>
+    <color name="color_global_black">#000000</color>
+    <color name="color_global_red">#B80000</color>
+    <color name="color_global_gray">#8E8E8E</color>
+    <color name="color_global_transparent">@android:color/transparent</color>
+    <color name="color_global_semi_transparent">#80000000</color>
+    <color name="color_global_semi_white">#80FFFFFF</color>
+    <color name="color_shadow_black">#22000000</color>
+    <color name="color_dividers">#DADADA</color>
+    <color name="color_edittext_hint">#B8B8B8</color>
+    <color name="color_text_secondary">#727272</color>
+    <color name="color_text_primary">#212121</color>
+
+    <!-- app component color -->
+    <color name="color_window_background">#F3F7F9</color>
+    
+    <color name="color_btn_blue_normal">#009CDC</color>
+    <color name="color_btn_blue_pressed">#0084B8</color>
+    
+    <color name="color_editext_normal">#E5E7E8</color>
+    <color name="color_editext_pressed">#2194FF</color>
+
+</resources>

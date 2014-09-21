@@ -1,0 +1,111 @@
+#
+# generated on 2014/09/21 12:11:14
+#
+# --table-start--
+dataClass=com.android.edc.bean.DustJobData
+tableName=dustjobdata
+# --table-fields-start--
+# --field-start--
+fieldName=jobId
+columnName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=customer
+columnName=customer
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=supervisor
+columnName=supervisor
+# --field-end--
+# --field-start--
+fieldName=signature
+columnName=signature
+# --field-end--
+# --field-start--
+fieldName=clientsopo
+columnName=clientsopo
+# --field-end--
+# --field-start--
+fieldName=location_number
+columnName=location_number
+# --field-end--
+# --field-start--
+fieldName=downhole_location
+columnName=downhole_location
+# --field-end--
+# --field-start--
+fieldName=ar_edc_so
+columnName=ar_edc_so
+# --field-end--
+# --field-start--
+fieldName=job_date
+columnName=job_date
+# --field-end--
+# --field-start--
+fieldName=job_start_time
+columnName=job_start_time
+# --field-end--
+# --field-start--
+fieldName=job_end_time
+columnName=job_end_time
+# --field-end--
+# --field-start--
+fieldName=equipment_hrs_start
+columnName=equipment_hrs_start
+# --field-end--
+# --field-start--
+fieldName=equipment_hrs_end
+columnName=equipment_hrs_end
+# --field-end--
+# --field-start--
+fieldName=accommodations
+columnName=accommodations
+# --field-end--
+# --field-start--
+fieldName=hogg
+columnName=hogg
+# --field-end--
+# --field-start--
+fieldName=Pails_dust
+columnName=Pails_dust
+# --field-end--
+# --field-start--
+fieldName=notes
+columnName=notes
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.android.edc.bean.OperatoData
+tableName=operatodata
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+# --field-end--
+# --field-start--
+fieldName=job_id
+columnName=job_id
+# --field-end--
+# --field-start--
+fieldName=trailer
+columnName=trailer
+# --field-end--
+# --field-start--
+fieldName=truck
+columnName=truck
+# --field-end--
+# --field-start--
+fieldName=sub
+columnName=sub
+# --field-end--
+# --field-start--
+fieldName=bouns
+columnName=bonus
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

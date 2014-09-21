@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EnviornmentDustControl</string>
+    <string name="title_activity_create_pdf">CreatePdfActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_name">Create File</string>
+    <string name="lbl_customer">Customer</string>
+    <string name="lbl_supervisor">Supervisor</string>
+    <string name="lbl_signature">Signature</string>
+    <string name="lbl_require_signature">Signature Required</string>
+    <string name="lbl_client">Client S/O P/O</string>
+    <string name="lbl_location_number">Location Number</string>
+    <string name="lbl_down_hole_location">Downhole Location</string>
+    <string name="lbl_ar_edc_s_o">AR-EDC-S/O</string>
+    <string name="lbl_date">Date</string>
+    <string name="lbl_job_start_time">Job Start Time</string>
+    <string name="lbl_job_end_time">Job End Time</string>
+    <string name="lbl_equipment_hrs_start">Equipment Hrs Start</string>
+    <string name="lbl_equipment_hrs_end">Equipment Hrs End</string>
+    <string name="lbl_accomodations">Accommodations</string>
+    <string name="lbl_hogg">Hogg#</string>
+    <string name="lbl_pailsofdust">Pails of Dust</string>
+    <string name="lbl_add_signature">Add Signature</string>
+    <string name="lbl_operator_01">Operator 1</string>
+    <string name="lbl_operator_02">Operator 2</string>
+    <string name="lbl_operator_03">Operator 3</string>
+    <string name="lbl_operator_04">Operator 4</string>
+    <string name="lbl_trailer">Trailer#</string>
+    <string name="lbl_truck">Truck#</string>
+    <string name="lbl_sub">Sub</string>
+    <string name="lbl_bonus">Bonus</string>
+    <string name="lbl_notes">Notes</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_save">Save</string>
+
+</resources>
