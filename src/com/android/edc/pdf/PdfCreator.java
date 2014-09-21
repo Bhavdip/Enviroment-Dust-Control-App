@@ -1,7 +1,10 @@
 package com.android.edc.pdf;
 
 import java.io.FileOutputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -70,7 +73,10 @@ public class PdfCreator {
 		try {
 			Document document = new Document();
 			String composeFileName = new String();
-			composeFileName = System.currentTimeMillis() + "edc.pdf";
+			// see the document the pdf and cvs file name should in proper format
+			// [Customer] – [Date] – [AR-EDC S/0]
+			SimpleDateFormat mSimpleDateFormat = new SimpleDateFormat("mmddyyy",Locale.US);
+			composeFileName = String.format("%s-%s-%s%s",getJobData().getCustomer(),mSimpleDateFormat.format(new Date()).toString(),getJobData().getAr_edc_so(),".pdf");
 			createdFilePath = String.format("%s %s", Const.getAppHomePath(),composeFileName);
 			PdfWriter.getInstance(document,new FileOutputStream(createdFilePath));
 			document.open();
