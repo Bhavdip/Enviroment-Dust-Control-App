@@ -1,0 +1,31 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- top job details section -->
+
+            <include layout="@layout/abs_job_details" />
+
+            <!-- operator details -->
+
+            <include layout="@layout/abs_job_operator" />
+
+            <!-- job save and cancel -->
+
+            <include layout="@layout/abs_job_save_cancel" />
+        </LinearLayout>
+
+        <include layout="@layout/abs_progress_dialog" />
+    </FrameLayout>
+
+</ScrollView>

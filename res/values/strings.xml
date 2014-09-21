@@ -33,5 +33,28 @@
     <string name="lbl_notes">Notes</string>
     <string name="btn_clear">Clear</string>
     <string name="btn_save">Save</string>
-
+    
+    <!-- PDF Format String  -->
+    <string name="customer_name">Customer %1$s</string>
+    <string name="client_so_po">ClientS/OP/O %1$s</string>
+    <string name="location_number">LocationNumber %1$s</string>
+    <string name="downhole_location">Downhole Location %1$s</string>
+    <string name="ar_edc_s_o">AR-EDC S/O %1$s</string>
+    <string name="job_date">Date %1$s</string>
+    <string name="job_start_time">Job Start Time %1$s</string>
+    <string name="job_end_time">Job End Time %1$s</string>
+    <string name="equipment_hrs_start">Equipment Hrs Start %1$s</string>
+    <string name="equipment_hrs_end">Equipment Hrs End %1$s</string>
+    <string name="accomodations">Accommadation %1$s</string>
+    <string name="hogg">Hogg # %1$s</string>
+    <string name="pailsofdust">Pails of Dust %1$s</string>
+    <string name="operator_1">Operator 1 %1$s</string>
+    <string name="operator_2">Operator 2 %1$s</string>
+    <string name="operator_3">Operator 3 %1$s</string>
+    <string name="operator_4">Operator 4 %1$s</string>
+    <string name="notes">Notes %1$s</string>
+    <string name="supervisor">Supervisor %1$s</string>
+    
+    <!-- dummy text here  -->
+    <string name="dummy_please_wait">Please wait &#8230;</string>
 </resources>

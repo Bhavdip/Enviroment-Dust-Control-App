@@ -8,6 +8,8 @@ public class OperatoData {
 	
 	public final String FIELD_JOB_ID = "job_id";
 	
+	public final String FIELD_OPERATOR_NAME = "operator_name";
+	
 	public final String FIELD_TRAILER = "trailer";
 	
 	public final String FIELD_TRUCK = "truck";
@@ -21,6 +23,9 @@ public class OperatoData {
 	
 	@DatabaseField(columnName = FIELD_JOB_ID)
 	private int job_id;
+	
+	@DatabaseField(columnName = FIELD_OPERATOR_NAME)
+	private String operator_name;
 	
 	@DatabaseField(columnName = FIELD_TRAILER)
 	private String trailer;
@@ -110,6 +115,32 @@ public class OperatoData {
 	public OperatoData setSub(int sub) {
 		this.sub = sub;
 		return this;
+	}
+	
+	public int getBouns() {
+		return bouns;
+	}
+
+	public OperatoData setBouns(int bouns) {
+		this.bouns = bouns;
+		return this;
+	}
+
+	public String getOperator_name() {
+		return operator_name;
+	}
+
+	public OperatoData setOperator_name(String operator_name) {
+		this.operator_name = operator_name;
+		return this;
+	}
+
+	@Override
+	public String toString() {
+		return "OperatoData [id=" + id + ", job_id=" + job_id
+				+ ", operator_name=" + operator_name + ", trailer=" + trailer
+				+ ", truck=" + truck + ", sub=" + sub + ", bouns=" + bouns
+				+ "]";
 	}
 	
 	

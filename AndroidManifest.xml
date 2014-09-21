@@ -16,7 +16,7 @@
         android:label="@string/app_name"
         android:theme="@style/EnvironmentTheme" >
         <activity
-            android:name="com.android.edc.activity.CreatePdfActivity_"
+            android:name="com.android.edc.activity.DustJobDetailsActivity_"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
